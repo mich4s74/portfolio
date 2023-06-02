@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS UNDER HERE -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE FONTS ABOVE HERE -->
+    <link rel="stylesheet" href="style.css" />
+    <meta name="robots" content="noindex"> <!-- remove before deploy-->
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <div id="sidebar" class="hideSideBar">
+      <div class="sidebarPage">
+        <div id="menuIcon" class="hideSideBar">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <nav id="sidebarList">
+          <ul>
+            <li>Menu</li>
+            <li class="homeNav"><a href="#home" class="navLink">Home</a></li>
+            <li class="aboutNav"><a href="#about" class="navLink">About</a></li>
+            <li class="projectNav"><a href="#projects" class="navLink">Projects</a></li>
+            <li class="contactNav"><a href="#contact" class="navLink">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="some">
+          <h4>Follow me</h4>
+          <div class="icons">
+          <a href="https://www.linkedin.com/in/michaeltrierhofby" class="linkedIcon"><img src="images/linkedin_icon.svg" alt=""></a>
+          <a href="https://github.com/mich4s74" class="gitIcon"><img src="images/gitbub_icon.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="content">
+        <section id="home">
+          <h1>Michael <span class="h1HomeBr hidden"><br></span> Trier-hofby</h1>
+            <p><span>Front end</span><span>Web development</span></p>
+            <div class="welcome">
+              <h3>Welcome...</h3>
+              <h3>Scroll to see more about me and my projects</h3>
+            </div>
+        </section>
+        <section id="about">
+          <div class="content__inner__section">
+            <img class="about__img" src="images/IMG_2929.jpeg" alt="Me">
+          <div id="about__selection">
+            <p class="header">Click to read more:</p>
+            <ul>
+              <li id="aboutMe" class="selection__li"><p class="selection about__span">About</p><p class="span-arrow">&#8594;</p></li>
+              <li id="aboutWork" class="selection__li"><p class="selection work__span">Experience</p><p class="span-arrow">&#8594;</p></li>
+              <li id="aboutFun" class="selection__li"><p class="selection funfacts__span">A bit more</p><p class="span-arrow">&#8594;</p></li>
+            </ul>
+          </div>
+          <div class="about__text">
+            <article class="about__me__article hidden">
+              <div class="borderBox"></div>
+                <h2>About</h2>
+                <p>Welcome to my portfolio</p>
+                <p>My name is Michael. I live in Taastrup with my girlfriend and study Multimedia Design at KEA. I really enjoy creating applications and fiddling with code and the whole experience of making it work. <br>
+                I originally grew up in Østerbro in Copenhagen and it is still one of my favourite areas in all of Denmark.</p>
+              </article>
+            <article class="about__work__article hidden">
+              <div class="borderBox"></div>
+              <h2>Experience</h2>
+              <h4>Current</h4>
+              <p>Full time student at KEA as Multimedia Designer. Also i have been selling, creating and delivering Wordpress websites to businesses in Copenhagen.</a>.</p>
+              <h4>Previous</h4>
+              <p>Online marketing employee at the sunny coast of southern Spain - 2017- 2020.</p>
+              <p> Sales representative at the telecommunication company "3" - 2015 - 2017.</p>
+              </article>
+            <article class="about__fun__article hidden">
+              <div class="borderBox"></div>
+                <h2>A bit more</h2>
+                <div class="borderBox">
+                  <p>I actually have a bachelor in law from the university of Odense.</p>
+                  <p>Love watching american football and im always watching day and night when Superbowl is on.</p>
+                  <p>Been playing <a href="https://worldofwarcraft.blizzard.com/en-gb">World of Warcraft</a> for over 15 years. Not anymore though :)</p>
+                </div>
+              </article>
+          </div>
+
+          </div>
+        </section>
+        <section id="projects">
+          <div class="content__inner__section">
+            <h2>Projects</h2>
+            <p>Here you can see a few of my projects I've done as part of my education at KEA.</p>
+            <div class="seperator"></div>
+            <div class="projects__container">
+              <artcle class="project__container project1">
+                <h3>Foo Festival - Next.js/React App</h3>
+                <img src="images/foo_festival.png">
+                <div class="project__text">
+                <h4>About the project</h4>
+                <p>I did this project on the 3rd semester as an exam assignment. We worked with UX/UI design and development of the entire app. We used Next.js/React as part of the tech stack and also Tailwind CSS. </p>
+                
+                <h4><a href="https://foofestival-app.vercel.app">Go to project</a></h4>
+                </div>
+              </artcle>
+              <artcle class="project__container project2">
+                <h3>Chamoi - Webshop project</h3>
+                <img src="images/chamoi_gif.gif">
+                <div class="project__text">
+                <h4>About the project</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dignissimos ut. Pariatur velit molestiae expedita incidunt cumque accusantium omnis, ipsam at natus. Atque reprehenderit maiores rem quas vero sint quisquam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dignissimos ut. Pariatur velit molestiae expedita incidunt cumque accusantium omnis, ipsam at natus. Atque reprehenderit maiores rem quas vero sint quisquam.</p>
+                <h4><a href="https://madelene.dk/kea/10_eksamen/chamoi">Go to project</a></h4>
+                </div>
+              </artcle>
+              <artcle class="project__container project3">
+                <h3>Hogwarts project - Filtering & Sorting with JavaScript</h3>
+                <img src="images/hogwarts_project.png">
+                <div class="project__text">
+                <h4>About the project</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dignissimos ut. Pariatur velit molestiae expedita incidunt cumque accusantium omnis, ipsam at natus. Atque reprehenderit maiores rem quas vero sint quisquam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dignissimos ut. Pariatur velit molestiae expedita incidunt cumque accusantium omnis, ipsam at natus. Atque reprehenderit maiores rem quas vero sint quisquam.</p>
+                <h4><a href="https://tamangsmriti.com/hogwarts-cleaningdata">Go to project</a></h4>
+                </div>
+              </artcle>
+              <div class="project__buttons">
+                <div class="arrow--left"><span>&#8592;</span> <span>Prev. project</span></div>
+                <div class="arrow--right"><span>Next project</span> <span>&#8594;</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="content__inner__section">
+            <h2>Contact me</h2>
+            <h3>Want to contact me regarding colabs, work or something else? Use the form below 👇 </h3>
+            <form class="contact-form">
+              <div id="contactName"class="contact-form__container">
+                <label for="contactName">Your name</label>
+                <input name="contactName" type="text" placeholder="Full name" required>
+              </div>
+              <div id="contactEmail"class="contact-form__container">
+                <label for="contactEmail">Your email</label>
+                <input name="contactEmail" type="email" placeholder="your-mail@mail.com" required>
+              </div>
+              <div id="contactPhone"class="contact-form__container">
+                <label for="contactPhone">Your phone number (optional)</label>
+                <input name="contactPhone" type="tel" placeholder="+45 12 34 56 78">
+              </div>
+              <div id="contactSubject"class="contact-form__container">
+                <label for="contactSubject">Choose subject</label>
+                <select name="contactSubject" required>
+                  <option value="" disabled hidden>Subject</option>
+                  <option value="">Job position</option>
+                  <option value="">Work on website</option>
+                  <option value="">Want to collab</option>
+                  <option value="">Other</option>
+                </select>
+              </div>
+              <div id="contactText"class="contact-form__container">
+                <label for="contactInput">Your phone number (optional)</label>
+                <textarea name="contactInput" placeholder="Write your messagbe here." cols="30" rows="5" required></textarea>
+              </div>
+              <div class="contactSubmit">
+                <span id="formButton" type="submit" value="Send message">Send message</span>
+              </div>
+            </form>
+          </div>
+          <footer>
+            <p>All rights reserved &#174; &#169; </p>
+          </footer>
+        </section>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
